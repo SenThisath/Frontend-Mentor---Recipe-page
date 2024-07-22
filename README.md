@@ -4,7 +4,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 
 ## Links
-
 - Solution URL: [GitHub](https://github.com/SenThisath/Frontend-Mentor---Recipe-page)
 - Live Site URL: [Netlify](https://sentech-recipe-page.netlify.app/)
 
