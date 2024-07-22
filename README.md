@@ -5,8 +5,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Links
 
-- Solution URL: [GitHub](https://your-solution-url.com)
-- Live Site URL: [test](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/SenThisath/Frontend-Mentor---Recipe-page)
+- Live Site URL: [Netlify](https://sentech-recipe-page.netlify.app/)
 
 ## Developer Details
 I'm Senuka Thisath. 17 year old web/app developer. I'm a life long learner (currently taking a course on software development). Contact me using following links.
