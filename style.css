@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+  --w-400: 400;
+  --w-600: 600;
+  --w-700: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+span {
+  color: var(--brown-800);
+  font-weight: var(--w-700);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--stone-100);
+  line-height: 1.7;
+  color: var(--stone-600);
+  font-weight: var(--w-400);
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-family: "Young Serif", sans-serif;
+  color: var(--stone-900);
+}
+
+h2 {
+  font-family: "Young Serif", sans-serif;
+  color: var(--brown-800);
+}
+
+ul,
+ol {
+  margin: 0 2rem;
+}
+
+li {
+  padding-left: 0.5rem;
+  padding-bottom: 0.3rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+
+table tr:not(:last-child) {
+  border-bottom: 2px solid var(--stone-150);
+}
+
+table tr td {
+  padding-top: 0.4rem;
+  padding-left: 4rem;
+  padding-bottom: 0.6rem;
+}
+
+::marker {
+  color: var(--brown-800);
+  font-weight: var(--w-700);
+}
+
+.main-container {
+  background-color: white;
+  max-width: 968px;
+  margin: 2rem auto;
+  padding: 1rem 3rem;
+  border-radius: 20px;
+}
+
+.container {
+  margin: 3rem 0;
+}
+
+.hero-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.info {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: var(--rose-50);
+  border-radius: 20px;
+}
+
+.info h3 {
+  color: var(--rose-800);
+}
+
+.info ::marker {
+  color: var(--rose-800);
+}
+
+.section-break {
+  width: 100%;
+  height: 2px;
+  background-color: var(--stone-150);
+  margin-top: 3rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 968px) {
+  body {
+    background-color: white;
+    line-height: 1.3;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: white;
+    line-height: 1.3;
+  }
+  h1 {
+    margin-bottom: 1rem;
+  }
+  h2 {
+    margin-bottom: 1rem;
+  }
+  .main-container {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 3rem;
+  }
+  .container {
+    margin: 2rem 0;
+  }
+  .section-break {
+    height: 4px;
+    margin-top: 2rem;
+  }
+  table tr:not(:last-child) {
+    border-bottom: 4px solid var(--stone-150);
+  }
+}
+
+@media screen and (max-width: 533px) {
+  body {
+    line-height: 1.3;
+  }
+  .main-container {
+    padding: 1rem 2rem;
+  }
+  .container {
+    margin: 1rem 0;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    margin-bottom: 1rem;
+  }
+  li {
+    padding-left: 0.5rem;
+    padding-bottom: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 437px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .main-container {
+    padding: 1rem 1.3rem;
+  }
+  .section-break {
+    height: 4px;
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
